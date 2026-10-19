@@ -2,9 +2,13 @@ body {
   font-family: Arial, sans-serif;
   background: #e8f0fe;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
   justify-content: center;
   padding: 2rem;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -61,8 +65,10 @@ button:disabled {
   color: #c62828;
 }
 
-#footer {
-    background-color: #1a73e8;
-    color: #e8f0fe;
+#site-footer {
+    margin-top: auto;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
     text-align: center;
 }

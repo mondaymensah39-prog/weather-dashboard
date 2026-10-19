@@ -113,3 +113,5 @@ form.addEventListener("submit", async (event) => {
     searchBtn.disabled = false;
   }
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
